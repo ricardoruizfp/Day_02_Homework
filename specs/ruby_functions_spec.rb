@@ -28,11 +28,11 @@ def test_add()
     assert_equal( 5, divide_result )
   end
 #
-#   def test_length_of_string()
-#     test_string = "A string of length 21"
-#     length_of_string = length_of_string( test_string )
-#     assert_equal( 21, length_of_string )
-#   end
+  def test_length_of_string()
+    test_string = "A string of length 21"
+    length_of_string = length_of_string( test_string )
+    assert_equal( 21, length_of_string )
+  end
 #
 #   def test_join_string()
 #     string_1 = "Mary had a little lamb, "
