@@ -37,10 +37,28 @@ def add_string_as_number(x, y)
   return sum
 end
 
-def number_to_full_month_name(month_number)
-  case month_number
-  when 1
-    return "January"
+require 'date'
+def number_to_full_month_name(month)
+  Date::MONTHNAMES[month]
+end
 
-  end
+def number_to_short_month_name(month)
+  Date::ABBR_MONTHNAMES[month]
+end
+
+# Further
+
+def volume_of_cube(v)
+  volume = v ** 3
+  return volume
+end
+
+def volume_of_sphere(radius)
+  volume = 4.0/3.0 * Math::PI * radius**3
+  return volume
+end
+
+def fahrenheit_to_celsius(f)
+  celsius = (f-32)/1.8
+  return celsius
 end
