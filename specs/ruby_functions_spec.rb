@@ -50,11 +50,11 @@ def test_add()
     add_result = add_string_as_number( "2", "2" )
     assert_equal( 4, add_result )
   end
-#
-#   def test_number_to_full_name__month_1()
-#     result = number_to_full_month_name( 1 )
-#     assert_equal( "January", result )
-#   end
+
+  def test_number_to_full_name__month_1()
+    result = number_to_full_month_name( 1 )
+    assert_equal( "January", result )
+  end
 #
 #   def test_number_to_full_name__month_3()
 #     result = number_to_full_month_name( 3 )
@@ -72,7 +72,7 @@ def test_add()
 #   end
 #
 #   def test_substring__month_4()
-#     fourth_month_string = number_to_short_month_name( 4 )
+#     fourth_month_string = number_to_  short_month_name( 4 )
 #     assert_equal( "Apr", fourth_month_string )
 #   end
 #
@@ -97,5 +97,4 @@ def test_add()
 #   def test_fahrenheit_to_celsius()
 #     #add test code here
 #   end
-#
 end
